@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nice</title>
+  <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+  <div class="grid">
+    <div class="gridItem" id="gridItem1">
+      <form>
+        <div class="WorkoutGrid">
+
+          <h1 class="title" id="H1WO">Workout</h1>
+
+          <div class="WorkoutGridItems" id="WorkoutGridItems1">
+            <label id="PushUpsL" for="PushUps">Push Ups:</label>
+          </div>
+          <div class="WorkoutGridItems" id="WorkoutGridItems12">
+            <input class="WInput" type="text" id="PushUps" name="thing_1">
+          </div>
+
+
+          <div class="WorkoutGridItems" id="WorkoutGridItems2">
+            <label id="PullUpsL" for="pullups">Pull Ups:</label>
+          </div>
+          <div class="WorkoutGridItems" id="WorkoutGridItems22">
+            <input class="WInput" type="text" id="pullups" name="pullups">
+          </div>
+
+
+          <div class="WorkoutGridItems" id="WorkoutGridItems3">
+            <label id="JumpingL" for="jumping">Jumping:</label>
+          </div>
+          <div class="WorkoutGridItems" id="WorkoutGridItems32">
+            <input class="WInput" type="text" id="jumping" name="jumping">
+          </div>
+
+
+          <div class="WorkoutGridItems" id="WorkoutGridItems4">
+            <label id="SquatsL" for="squats">Squats:</label>
+          </div>
+          <div class="WorkoutGridItems" id="WorkoutGridItems42">
+            <input class="WInput" type="text" id="squats" name="squats">
+          </div>
+
+
+          <div class="WorkoutGridItems" id="WorkoutGridItems5">
+            <input id="submit" type="submit" value="Submit">
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+    <div class="gridItem" id="gridItem2">
+      <div class="title" id="header">
+        What You Did Today?
+      </div>
+      <div id="logContainerWrapper">
+        <div id="logContainer">
+        </div>
+      </div>
+
+      <div id="addButton">+ Add Entry</div>
+
+      <div id="saveButton">Save</div>
+    </div>
+
+    <div class="gridItem" id="gridItem3">
+
+      <h1 class="title">Study Tracker</h1>
+      <div class="study-container">
+        <div class="book" id="book1">Book 1</div>
+        <div class="book" id="book2">Book 2</div>
+        <div class="book" id="book3">Book 3</div>
+        <div class="book" id="book4">Book 4</div>
+        <div class="book" id="book5">Book 5</div>
+        <label for="sub1_input" id="sub1">Subject 1</label>
+        <label for="sub4_input" id="sub2">Subject 2</label>
+        <label for="sub7_input" id="sub3">Subject 3</label>
+        <input type="text" class="SubInput" id="sub1_input">
+        <input type="text" class="SubInput" id="sub2_input">
+        <input type="text" class="SubInput" id="sub3_input">
+        <input type="text" class="SubInput" id="sub4_input">
+        <input type="text" class="SubInput" id="sub5_input">
+        <input type="text" class="SubInput" id="sub6_input">
+        <input type="text" class="SubInput" id="sub7_input">
+        <input type="text" class="SubInput" id="sub8_input">
+        <input type="text" class="SubInput" id="sub9_input">
+        <input type="text" class="SubInput" id="sub10_input">
+        <input type="text" class="SubInput" id="sub11_input">
+        <input type="text" class="SubInput" id="sub12_input">
+        <input type="text" class="SubInput" id="sub13_input">
+        <input type="text" class="SubInput" id="sub14_input">
+        <input type="text" class="SubInput" id="sub15_input">
+
+
+        <button id="btn" onclick="saveData()">Save</button>
+      </div>
+    </div>
+
+    <div class="gridItem" id="gridItem4">
+
+      <div class="icons">
+
+        <a class="icon" id="youtube" href="https://www.youtube.com/" target="_blank">
+          <img src="icons/youtube.png" alt="youtube" id="youtube_icon">
+        </a>
+
+        <a class="icon " id="discord" href="https://discord.com">
+          <img src="icons/discord.png" alt="discord" id="discord_icon">
+        </a>
+
+        <a class="icon invert_image" id="chatgpt" href="https://chat.openai.com/">
+          <img src="icons/chatgpt.png" alt="chatgpt" id="chatgpt_icon">
+        </a>
+
+        <a class="icon " id="spotify" href="https://www.spotify.com/">
+          <img src="icons/spotify.png" alt="spotify" id="spotify_icon">
+        </a>
+
+        <a class="icon invert_image" id="keyboard" href="https://monkeytype.com/">
+          <img src="icons/keyboard.png" alt="spotify" id="spotify_icon">
+        </a>
+
+        <a class="icon invert_image" id="physics_wallah" href="https://monkeytype.com/">
+          <img src="icons/physics_wallah.png" alt="physics_wallah" id="physics_wallah_icon">
+        </a>
+
+      </div>
+
+      <div>
+
+      </div>
+
+    </div>
+
+
+    <script src="/javascript/brain.js"></script>
+
+
+</body>
+
+</html>
